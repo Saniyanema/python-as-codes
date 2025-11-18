@@ -1,0 +1,11 @@
+
+def max_lemon_cakes(N):
+    for A in range(N//2, 0, -1):
+        if N % A != 0:
+            return N % A
+    return 0
+
+T = int(input())
+for _ in range(T):
+    N = int(input())
+    print(max_
