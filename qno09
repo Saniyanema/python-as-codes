@@ -8,4 +8,4 @@ def max_lemon_cakes(N):
 T = int(input())
 for _ in range(T):
     N = int(input())
-    print(max_
+    print(max_lemon_cakes(N))
